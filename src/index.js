@@ -15,7 +15,7 @@ module.exports = {
     this.adAccountId = params.adAccountId;
     this.providerToken = params.providerToken;
     this.debug = params.debug;
-    this.url = 'https://graph-video.facebook.com/v2.11/' + this.adAccountId + '/advideos';
+    this.url = 'https://graph-video.facebook.com/v7.0/' + this.adAccountId + '/advideos';
   },
 
   async upload(file, title) {
